@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1460049411 source:c:\users\mauro\desktop\facultad\ejercicios-c\calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	"milibreria.h"
+
+1460008259 c:\users\mauro\desktop\facultad\ejercicios-c\calculadora\milibreria.h
+
+1460049216 source:c:\users\mauro\desktop\facultad\ejercicios-c\calculadora\milibreria.c
+	<stdio.h>
+	<stdlib.h>
+
+1460049699 source:c:\users\mauro\desktop\nueva carpeta\tp_01calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	"milibreria.h"
+
+1460008259 c:\users\mauro\desktop\nueva carpeta\tp_01calculadora\milibreria.h
+
+1460049216 source:c:\users\mauro\desktop\nueva carpeta\tp_01calculadora\milibreria.c
+	<stdio.h>
+	<stdlib.h>
+

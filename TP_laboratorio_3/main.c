@@ -42,23 +42,23 @@ int main()
 
     do
     {
-		printf("\n         ษอออออออออออออออออออออออออออป");
-		printf("\n         บ         PELICULAS         บ");
-		printf("\n         ฬอออออออออออออออออออออออออออน");
-		printf("\n         บ                           บ");
-		printf("\n         บ  1)- Agregar pelicula     บ");
-		printf("\n         บ                           บ");
-		printf("\n         บ  2)- Borrar pelicula      บ");
-		printf("\n         บ                           บ");
-		printf("\n         บ  3)- Modificar pelicula   บ");
-		printf("\n         บ                           บ");
-		printf("\n         บ  4)- Generar pagina web   บ");
-		printf("\n         บ                           บ");
-		printf("\n         บ  5)- Salir                บ");
-		printf("\n         บ                           บ");
-		printf("\n         ฬอออออออออออออออออออออออออออน");
-		printf("\n         บ   Autor: Mauro Barroso    บ");
-		printf("\n         ศอออออออออออออออออออออออออออผ");
+		printf("\n         รรรรรรรรรรรรรรรรรรรรรรรรรรรรยป");
+		printf("\n         ยบ         PELICULAS         ยบ");
+		printf("\n         รรรรรรรรรรรรรรรรรรรรรรรรรรรรยน");
+		printf("\n         ยบ                           ยบ");
+		printf("\n         ยบ  1)- Agregar pelicula     ยบ");
+		printf("\n         ยบ                           ยบ");
+		printf("\n         ยบ  2)- Borrar pelicula      ยบ");
+		printf("\n         ยบ                           ยบ");
+		printf("\n         ยบ  3)- Modificar pelicula   ยบ");
+		printf("\n         ยบ                           ยบ");
+		printf("\n         ยบ  4)- Generar pagina web   ยบ");
+		printf("\n         ยบ                           ยบ");
+		printf("\n         ยบ  5)- Salir                ยบ");
+		printf("\n         ยบ                           ยบ");
+		printf("\n         รรรรรรรรรรรรรรรรรรรรรรรรรรรรยน");
+		printf("\n         ยบ   Autor: Mauro Barroso    ยบ");
+		printf("\n         รรรรรรรรรรรรรรรรรรรรรรรรรรรรยผ");
 		printf("\n");
 		printf("\n              Elija una opcion: ");
         opcion=getchar();
@@ -72,7 +72,7 @@ int main()
 
                 case '2':
                     system("cls");
-                    if(movies->isEmpty==0)
+                    if(caseVerify(movies)==0)
                         deleteMovie(movies,"Ingrese el titulo de la pelicula: ");
                     else
                         printf("No hay %s registradas.\n",datoMenu);
@@ -81,7 +81,7 @@ int main()
 
                 case '3':
                     system("cls");
-                    if(movies->isEmpty==0)
+                    if(caseVerify(movies)==0)
                         modifyMovie(movies,"Ingrese el titulo de la pelicula: ","Genero","Duracion","Descripcion","Puntaje","Imagen","Error ,usar solamente letras para indicar el genero - No se cargaron los datos.\n","Error. Solo minutos expresados en 1, 2 o 3 cifras numericas.\n");
                     else
                         printf("No hay %s registradas.\n",datoMenu);
@@ -90,7 +90,7 @@ int main()
 
                 case '4':
                     system("cls");
-                    if(movies->isEmpty==0)
+                    if(caseVerify(movies)==0)
                         crearHTML(movies);
                     else
                         printf("No hay %s registradas.\n",datoMenu);

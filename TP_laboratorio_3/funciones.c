@@ -148,23 +148,23 @@ void modifyMovie(EMovies movies[],char datoPrincipal[],char dato1[],char dato2[]
         if(strcmp(movies[i].titulo,auxPrincipal)==0)
         {
             printf("             Se encontro la pelicula   " );
-            printf("\n         ษอออออออออออออออออออออออออออป");
-            printf("\n         บ    QUE DESEA MODIFICAR?:  บ");
-            printf("\n         ฬอออออออออออออออออออออออออออน");
-            printf("\n         บ                           บ");
-            printf("\n         บ  1)- Genero               บ");
-            printf("\n         บ                           บ");
-            printf("\n         บ  2)- Duracion             บ");
-            printf("\n         บ                           บ");
-            printf("\n         บ  3)- Descripcion          บ");
-            printf("\n         บ                           บ");
-            printf("\n         บ  4)- Puntaje              บ");
-            printf("\n         บ                           บ");
-            printf("\n         บ  5)- Imagen               บ");
-            printf("\n         บ                           บ");
-            printf("\n         บ  6)- Salir                บ");
-            printf("\n         บ                           บ");
-            printf("\n         ศอออออออออออออออออออออออออออผ");
+            printf("\n         รรรรรรรรรรรรรรรรรรรรรรรรรรรรยป");
+            printf("\n         ยบ    QUE DESEA MODIFICAR?:  ยบ");
+            printf("\n         รรรรรรรรรรรรรรรรรรรรรรรรรรรรยน");
+            printf("\n         ยบ                           ยบ");
+            printf("\n         ยบ  1)- Genero               ยบ");
+            printf("\n         ยบ                           ยบ");
+            printf("\n         ยบ  2)- Duracion             ยบ");
+            printf("\n         ยบ                           ยบ");
+            printf("\n         ยบ  3)- Descripcion          ยบ");
+            printf("\n         ยบ                           ยบ");
+            printf("\n         ยบ  4)- Puntaje              ยบ");
+            printf("\n         ยบ                           ยบ");
+            printf("\n         ยบ  5)- Imagen               ยบ");
+            printf("\n         ยบ                           ยบ");
+            printf("\n         ยบ  6)- Salir                ยบ");
+            printf("\n         ยบ                           ยบ");
+            printf("\n         รรรรรรรรรรรรรรรรรรรรรรรรรรรรยผ");
             printf("\n");
             printf("\n              Elija una opcion: ");
             scanf("%d",&opcion);
@@ -453,4 +453,32 @@ int validacionCadena(char cadena[])
 
     }
     return retorno;
+}
+
+/** \brief Hace un conteo de las peliculas ingresadas (isEmpty=0)
+ *
+ * \param  movies representa la estructura de peliculas
+ * \return 0 si hay peliculas ingresadas o -1 si no las hay.
+ *
+ */
+
+int caseVerify(EMovies movies[])
+{
+    int i,cantMovies=0;
+    for(i=0;i<MAX;i++)
+    {
+        if(movies[i].isEmpty==0)
+        {
+            cantMovies++;
+        }
+    }
+
+    if(cantMovies==0)
+    {
+        return -1;
+    }
+    else
+    {
+        return 0;
+    }
 }

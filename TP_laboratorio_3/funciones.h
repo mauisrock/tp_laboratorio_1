@@ -14,6 +14,7 @@ typedef struct{
 
 }EMovies;
 
+int caseVerify(EMovies movies[]);
 int validacionCadena(char cadena[]);
 int validacionNumerica(int num,int limite,int limite1,int limite2);
 int guardarEnArchivo(EMovies movies[]);

@@ -1,0 +1,83 @@
+body {
+	background-image: url("http://fotos.subefotos.com/09b82e47bf75b39a37c5ed8ecfb932ebo.jpg");
+	background-color: black;
+	background-repeat: no-repeat;
+	padding-top: 80px;
+	text-shadow: 0 0 0.2em #000;
+	color: #f5f3f3;
+	padding-left: 120px;
+	padding-right: -30px;
+	}
+	
+h1, h2, h3, h4, h5, h6 {
+	color: black;
+	}
+
+
+.white{
+	color: #fff
+}
+
+.feature {
+	background-color: yellowgreen;
+	color: greenyellow;
+}
+	
+.article-intro {
+    margin-bottom: 25px;
+}
+
+.footer-blurb {
+    padding: 30px 0;
+    background-color: goldenrod;
+    color: black;
+}
+    
+.footer-blurb-item {
+    padding: 30px;
+}
+ 
+.small-print {
+	box-shadow: all;
+	background-color: #fff;
+	padding: 30px 0;
+}
+
+.custom
+{
+	height:120px;
+	width:200px;
+	overflow:auto;
+	padding:2%;
+	text-shadow: 0 0 0.2em #000;
+}
+
+.img-size
+{
+	-webkit-box-shadow: 10px 5px 51px -2px rgba(0,0,0,0.81);
+    -moz-box-shadow: 10px 5px 51px -2px rgba(0,0,0,0.81);
+	box-shadow: 10px 5px 51px -2px rgba(0,0,0,0.81);
+	height:268px;
+	width:182px; 
+}
+
+::-webkit-scrollbar{
+width: 14px;
+height: 12px;
+}
+
+::-webkit-scrollbar-track{
+border: 1px solid gray;
+box-decoration-break: unset;
+}
+
+::-webkit-scrollbar-thumb{
+background: #222222  
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+background: gray;  
+}
+
+

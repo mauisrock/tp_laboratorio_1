@@ -1,0 +1,144 @@
+# depslib dependency file v1.0
+1466574356 source:c:\users\mauro\desktop\movies_abm\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"movies.h"
+	"arraylist.h"
+
+1466574166 source:c:\users\mauro\desktop\movies_abm\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraylist.h"
+
+1466574390 source:c:\users\mauro\desktop\movies_abm\movies.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"movies.h"
+
+1466547128 c:\users\mauro\desktop\movies_abm\movies.h
+	"arraylist.h"
+
+1466462894 c:\users\mauro\desktop\movies_abm\arraylist.h
+
+1466713162 source:c:\users\mauro\desktop\carpetas\facultad\movies_abm\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraylist.h"
+
+1466462894 c:\users\mauro\desktop\carpetas\facultad\movies_abm\arraylist.h
+
+1466711515 source:c:\users\mauro\desktop\carpetas\facultad\movies_abm\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"movies.h"
+	"arraylist.h"
+
+1466713170 c:\users\mauro\desktop\carpetas\facultad\movies_abm\movies.h
+	"arraylist.h"
+
+1466710558 source:c:\users\mauro\desktop\carpetas\facultad\movies_abm\movies.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"movies.h"
+
+1466724098 source:c:\users\alumno.lab5pc03\desktop\movies_abm\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraylist.h"
+
+1466723068 c:\users\alumno.lab5pc03\desktop\movies_abm\arraylist.h
+
+1466719362 source:c:\users\alumno.lab5pc03\desktop\movies_abm\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"movies.h"
+	"arraylist.h"
+
+1466718450 c:\users\alumno.lab5pc03\desktop\movies_abm\movies.h
+	"arraylist.h"
+
+1466724183 source:c:\users\alumno.lab5pc03\desktop\movies_abm\movies.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"movies.h"
+
+1467851691 source:c:\users\mauro\desktop\carpetas\facultad\movies_abm_v2\movies_abm\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraylist.h"
+
+1466723068 c:\users\mauro\desktop\carpetas\facultad\movies_abm_v2\movies_abm\arraylist.h
+
+1468108886 source:c:\users\mauro\desktop\carpetas\facultad\movies_abm_v2\movies_abm\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"movies.h"
+	"arraylist.h"
+
+1468108880 c:\users\mauro\desktop\carpetas\facultad\movies_abm_v2\movies_abm\movies.h
+	"arraylist.h"
+
+1468108861 source:c:\users\mauro\desktop\carpetas\facultad\movies_abm_v2\movies_abm\movies.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"movies.h"
+	"validaciones.h"
+
+1467851149 source:c:\users\mauro\desktop\carpetas\facultad\movies_abm_v2\movies_abm\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+
+1467669559 c:\users\mauro\desktop\carpetas\facultad\movies_abm_v2\movies_abm\validaciones.h
+
+1467851691 source:c:\users\mauro\desktop\tp_laboratorio_4\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraylist.h"
+
+1466723068 c:\users\mauro\desktop\tp_laboratorio_4\arraylist.h
+
+1468108886 source:c:\users\mauro\desktop\tp_laboratorio_4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"movies.h"
+	"arraylist.h"
+
+1468108880 c:\users\mauro\desktop\tp_laboratorio_4\movies.h
+	"arraylist.h"
+
+1468108965 source:c:\users\mauro\desktop\tp_laboratorio_4\movies.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"movies.h"
+	"validaciones.h"
+
+1467669559 c:\users\mauro\desktop\tp_laboratorio_4\validaciones.h
+
+1467851149 source:c:\users\mauro\desktop\tp_laboratorio_4\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+
